@@ -17,11 +17,9 @@ I have used Java for building this Console based Application. For data storage, 
 
 
 ## Challenges Faced
-
 1. Initially I thought of building an Android application of Task Tracker using Java for backend and Android Studio (XML) for frontend but the android studio did not worked due to SSL misconfigurations and firewalls (Proxy) problems, so i have created a console based Application.
 
 2. I also faced a runtime error at the time of execution (scanner input mismatch). I identified that a next line character (Enter), after the nextInt() for taking input for choice, was being consumed by nextLine() used for taking the input for TaskText.
 
 ## Improvements Planned
-Mention what you would improve if more time was available.
 I would be adding an User interface like an Android App so that the application becomes more appealing and easy to use. Also I would use an Database like PostgreSQL or MySQL for storage of Tasks and its Status. 
